@@ -1,0 +1,12 @@
+{
+  "name": "learn-angular",
+  "version": "1.0.0",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "bootstrap": "3.2.*",
+    "angular": "1.2.*"
+  }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<!--
+ng-app = attach Application module to page
+ng-show = attach Controller function to page
+ng-show/ng-hide = display or hide a section based on an Expression
+ng-repeat = repeat a section for each item in Array
+ng-model = bind elements together on page
+-->
+<html ng-app="helloWorld">
+  <head>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container" ng-controller="HelloController">
+      <h1>Angular Starter</h1>
+      <p>{{hello}} {{world}}</p>
+    </div> <!-- /container -->
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
